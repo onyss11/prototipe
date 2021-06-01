@@ -27,9 +27,9 @@
             <img src="img/homeImg.png" alt="" class="partHome__img">
         </div>
         <div class="partHome__split partHome__splitRight">
-            <h1 class="partHome__title">Hola flaquito</h1>
+            <h1 class="partHome__title">Titulo Prueba</h1>
             <div class="partHome__textContainer">
-                <p class="partHome__description">Eres maricon </p>
+                <p class="partHome__description">Prueba </p>
             </div>
         </div>
     </section>
