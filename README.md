@@ -1,2 +1,0 @@
-# prototipe
-prototipo proyecto
