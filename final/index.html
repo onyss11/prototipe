@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MopSpecific</title>
+</head>
+<body>
+    
+    <header>
+        <div class="headerBar">
+            <img src="img/logoP.svg" alt="" class="brandLogo"></img>
+            <div class="menuHeader">
+                <nav class="navMain" id="navMain">
+                    <ul class="navHome">
+                        <li class="navItem"><a href="#" class="navLink">Themes</a></li>
+                        <li class="navItem"><a href="#" class="navLink">Packages</a></li>
+                        <li class="navItem"><a href="#" class="navLink">Help</a></li>
+                        <li class="navItem"><a href="#" class="navLink">Blog</a></li>
+                        <!-- <li class="navItem"><a href="#" class="navLink__Log">Login</a></li> -->
+                    </ul>
+                </nav>
+                <div class="iconLog">
+                    <a href="#" class="navLink__Log">Login</a>
+                </div>
+                <div class="iconMenu" id="iconMenu"></div>
+            </div>
+        </div>
+    </header>
+
+    <section class="partHome">
+        <div class="partHome__split partHome__splitLeft">
+            <h1 class="partHome__titleLeft">Bienvenido</h1>
+            <div class="partHome__textContainer">
+                <p class="partHome__description">MopSpecific, selecciona la marca para solicitar las especificaciones de cada modelo de pintura. Cuenta con gran variedad de marcas como...</p>
+            </div>
+        </div>
+        <!--<div class="partHome__middle">
+            <img src="img/homeImg.png" alt="" class="partHome__img">
+        </div>-->
+        <div class="partHome__split partHome__splitRight">
+            <form class="form">
+                <h2 class="partHome__title">Elige</h2>
+                <div class="partHome_sectionSelected">
+                    <div class="partHome_sectionSelectedGroup">
+                        <h1 class="partHome__subtitle">Marca</h1>
+                        <select class="partHome__select" id="id_marca">
+                            <option value="">Selecciona la marca</option>
+                        </select>
+                    </div>
+                    <div class="partHome_sectionSelectedGroup">
+                        <h1 class="partHome__subtitle">Modelo</h1>
+                        <select class="partHome__select" id="id_marca">
+                            <option value="">Selecciona la marca</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="partHome__btnSearch">
+                    <a href="especificaciones.html" class="partHome__btnForm">Buscar</a>
+                    <!--<button class="partHome__btnForm">Buscar</button>-->
+                </div>
+              </form>
+            <!--<h1 class="partHome__title">Titulo prueba</h1>
+            <div class="partHome__textContainer">
+                <p class="partHome__description">Prueba </p>
+            </div>-->
+        </div>
+    </section>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
